@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-BASE_IP="192.168.1.1" 
-RECEIVE_DIR="/path/to/receive/dir" 
-GARBAGE_PACKAGE="garbage_package.txt"
-ENCRYPTED_FILE="encrypted_file.gpg"
-DECRYPTED_FILE="my_secret_file.txt"
+BASE_IP="" #enter your own ip address
+RECEIVE_DIR="" #path to save the receive directory
+GARBAGE_PACKAGE="" #garbage package name
+ENCRYPTED_FILE="" #name for encrypted fiel
+DECRYPTED_FILE="" #name for decrypting the file
 
 
 function update_ip() {

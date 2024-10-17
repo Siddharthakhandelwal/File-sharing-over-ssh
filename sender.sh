@@ -3,10 +3,10 @@
 # first ip address
 BASE_IP="192.168.1.1"
 
-FILE_TO_ENCRYPT=""
-GARBAGE_PACKAGE=""
-RECEIVE_DIR=""
-DESTINATION_PATH=""
+FILE_TO_ENCRYPT="" #youtr file name to encrypt
+GARBAGE_PACKAGE="" #pre defined garbage package name
+RECEIVE_DIR="" #receive directory
+DESTINATION_PATH="" #destination path
 
 # Encrypt 
 gpg --output encrypted_file.gpg --symmetric --cipher-algo AES256 "$FILE_TO_ENCRYPT"
